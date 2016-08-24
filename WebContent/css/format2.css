@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: white;
+}
+
+.title{
+	
+	color:#0d648b;
+}
+
+.tagline{
+	
+	color : white;
+	font-size: 25px;
+}
+
+.giphy{
+	
+	border-radius: 20px;
+	
+}
+
+.textField { 
+	
+	padding-left: 20px;
+	border-radius: 10px;
+	width: 300px;
+	height: 35px;
+	font-size: 18px;
+    outline: none;
+    border-color: #315d9b;
+    box-shadow: 0 0 10px #315d9b;
+}
+.wrap img {
+     position: absolute;
+    top: 0;
+}
+
+.wrap img:nth-of-type(1) {
+	top: 5;
+    right: 0;
+}
+
+.googleSubmit{
+	border-radius: 10px;
+	width: 100px;
+	height: 35px;
+	background-color: grey;
+}
+#results{
+	
+	background-color:lightgrey;
+	border-radius: 10px;
+	padding-left:2%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right:2%;
+}
